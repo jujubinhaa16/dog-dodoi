@@ -1,0 +1,174 @@
+:root{
+   --cor-principal: #EA1C81;
+   --cor-topo: #D8F1FB82;
+   --cor-preta: black;
+   --cor-branca: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+
+#header{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+}
+
+#header nav a{
+    text-decoration: none;
+    color: var(--cor-preta);
+}
+
+#header nav a:hover{
+    background-color: var(--cor-principal);
+    padding: 15px;
+    color: var(--cor-branca);
+    border-radius: 20px;
+}
+
+.marginlateral{
+    margin: 0px 20px;
+
+}
+
+main #banner{
+    background-image: url(../img/banner2.png);
+    height: calc(100vh - 89px);
+    background-repeat: no repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-principal);
+}
+
+main #banner h1{
+    margin: 20px;
+}
+
+main #banner h2{
+    margin: 20px;
+}
+
+main #banner button{
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+main #banner button:hover{
+    cursor: pointer;
+    font-size: large;
+    padding: 20px;
+    }
+     
+main #bemVindo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 120px 50px;
+    
+}
+
+main #bemVindo h3{
+    color: var(--cor-principal);
+    margin: 10px;
+}
+
+
+
+main #beneficios {
+    background-color: #FAFBFF;
+    padding: 60px 20px;
+}
+
+main #beneficios #beneficios-nossosbeneficios{
+    margin: 20px;
+    text-align: center
+}
+
+main #beneficios h3 {
+    margin: 20px;
+}
+
+
+main #beneficios h3{
+    color: var(--cor-principal);
+}
+
+main #beneficios-servicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 200px;
+}
+
+main #beneficios-servicos{
+    color: var(--cor-principal);
+}
+
+main #forms{
+margin: 41px;
+text-align: center;
+background-image: url(../img/cao.png);
+background-repeat: no-repeat;
+}
+
+main #forms h3{
+    margin: 20px;
+}
+
+main #forms p{
+    margin: 20px;
+}
+
+main #form-formulario{
+    margin: 20px;
+}
+
+main #form-formulario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+main #form-formulario form div {
+    width: 100%;
+}
+
+ main #form-formulario input{
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ main #form-formulario button{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--cor-principal);
+    color: #FAFBFF;
+    width: 280px;
+ }
+
+#footer{
+    background-color: var(--cor-topo);
+    text-align: center;
+    padding: 15px;
+ }
+ 
