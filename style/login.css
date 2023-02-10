@@ -1,2 +1,14 @@
-
-
+:root{
+    --cor-principal: #EA1C81;
+    --cor-topo: #D8F1FB82;
+    --cor-preta: black;
+    --cor-branca: white;
+ }
+ 
+ #header{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+ }
